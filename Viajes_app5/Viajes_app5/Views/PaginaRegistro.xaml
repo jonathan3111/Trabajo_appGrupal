@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Viajes_app5.Views.PaginaRegistro">
+    <StackLayout>
+        <Label Text="Registro" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,10" />
+
+        <Entry Placeholder="Nombre" x:Name="NombreEntry" />
+        <Entry Placeholder="Apellido Paterno" x:Name="ApellidoPaternoEntry" />
+        <Entry Placeholder="Apellido Materno" x:Name="ApellidoMaternoEntry" />
+        <Entry Placeholder="Edad" x:Name="EdadEntry" Keyboard="Numeric" />
+        <Entry Placeholder="Correo" x:Name="CorreoEntry" />
+        <Entry Placeholder="Contraseña" x:Name="ContraseñaEntry" IsPassword="True" />
+
+        <Button Text="Registrarse" Clicked="OnRegistroButtonClicked" />
+    </StackLayout>
+</ContentPage>
